@@ -4,6 +4,13 @@ The Redis playground is based on CloudFormation, the AWS Infastracture as softwa
 
 If you are familiar with the concept of stacks and lambdas you can follow the [short version](#short-version). Otherwisse go Ahead for the [detailed one](#detailed-version).
 
+Below you can find a schema of the architecture of what we are going to build:
+
+<br></br>
+
+![architecture](pictures/architecture-2.drawio.png)
+
+<br></br>
 ## Short version
 
 - Create a stack using the cloud-formation/infrastacture/infrastructure.yaml and name it redis-demo-infra
