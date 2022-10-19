@@ -94,7 +94,7 @@ Add tags if needed otherwise click next.
 
 ##### [1.2.4 Give permission and create](#124-give-permission-and-create)
 
-Scroll to bottom, aknoledge the terms of AWS.
+Scroll to bottom, acknowledge the terms of AWS.
 Click create stack and wait for the resources to be created.
 
 ![aknowledge terms](pictures/aknowledge-term.png)
