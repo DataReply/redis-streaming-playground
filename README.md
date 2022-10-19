@@ -112,6 +112,7 @@ Please Note that the OpenSearch server need 15-20 min to be instanciated.
 ### [2. Deploy the producer and consumer](#2-deploy-the-producer-and-consumer)
 
 In this section we are going to deploy the lambdas using CloudFormation, we will select the smarthome use case.
+If at the moment you are reading this is the only usecase please don't panic, we will add more in the future.
 
 #### [2.1 Download the lambdas zip and load them into s3](#21-download-the-lambdas-zip-and-load-them-into-s3)
 
