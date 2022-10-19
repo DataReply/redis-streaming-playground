@@ -111,21 +111,32 @@ Please Note that the OpenSearch server need 15-20 min to be instanciated.
 
 ### [2. Deploy the producer and consumer](#2-deploy-the-producer-and-consumer)
 
-Choose one of the use cases from the cloud-formation/use-cases.
+In this section we are going to deploy the lambdas using CloudFormation, we will select the smarthome use case.
 
 #### [2.1 Download the lambdas zip and load them into s3](#21-download-the-lambdas-zip-and-load-them-into-s3)
 
 Download the lambdas in the *lamda-zips* folder.
-You will have two zips for each use case: one for the consumer and one for the producer. Load the zips in s3.
+You will have two zips for each use case: one for the consumer and one for the producer. You can find them here:
+
+- lambda-zips/smarthome-consumer.zip
+- lambda-zips/smarthome-producer.zip 
+
+Load both the zips in s3.
 If you need guidance on how to load file into your s3 bucket follow [this guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html).
 
 #### [2.2 Set your s3 bucket and your key](#21-set-your-s3-bucket-and-your-key)
 
-Change the mapping in the smarthome.yaml in the cloud-formation/use-cases directory and set your s3 bucket name and path to the downloaded consumer and producer zip.
+Change the mapping in the file *cloud-formation/use-cases/smarthome.yaml* to and set your s3 bucket name and path to the downloaded consumer and producer zip.
+
+![use-case](pictures/use-case-mapping.png)
 
 #### [2.3 Create the Lambdas' stack](#21-set-your-s3-bucket-and-your-key)
 
-Repeat the steps in the section 1 to deploy the stack with the producer and consumer in a Lambda. 
+Repeat the steps from 1.1 to 1.4 to deploy a new CloudFormation stack which will create the producer and consumer Lambdas. 
+This time you should load the *cloud-formation/use-cases/smarthome.yaml*
+
+![create-new-stack](pictures/create-new-stack.png)
+
 
 ### [3. Let's recap](#3-lets-recap)
 
