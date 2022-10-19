@@ -117,7 +117,7 @@ Choose one of the use cases from the cloud-formation/use-cases.
 
 Download the lambdas in the *lamda-zips* folder.
 You will have two zips for each use case: one for the consumer and one for the producer. Load the zips in s3.
-If you need guidance on how to load file into your s3 bucket follo [this guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html).
+If you need guidance on how to load file into your s3 bucket follow [this guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html).
 
 #### [2.2 Set your s3 bucket and your key](#21-set-your-s3-bucket-and-your-key)
 
