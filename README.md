@@ -13,7 +13,7 @@ If you are familiar with the concept of stacks and lambdas you can follow the [s
      -  smarthome-consumer.yaml
   -  download the dataset in the dataset directory
   -  load dataset and lambdas in s3
-  -  update the cloud-formation/use-cases/smarthome.yaml in the mapping section at the topo of the file to reflect your s3 bucket and key
+  -  update the cloud-formation/use-cases/smarthome.yaml in the mapping section at the top of the file to reflect your s3 bucket and key
 - Create another stack using the updated cloud-formation/use-cases/smarthome.yaml
 - Once you have the producer lambda update the link to your s3 bucket
 - Run the lambdas
