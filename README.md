@@ -121,7 +121,7 @@ If you need guidance on how to load file into your s3 bucket follow [this guide]
 
 #### [2.2 Set your s3 bucket and your key](#21-set-your-s3-bucket-and-your-key)
 
-Change the mapping in the smarthome.yaml in the cloud-formation/use-cases directory to and set your s3 bucket name and path to the downloaded consumer and producer zip.
+Change the mapping in the smarthome.yaml in the cloud-formation/use-cases directory and set your s3 bucket name and path to the downloaded consumer and producer zip.
 
 #### [2.3 Create the Lambdas' stack](#21-set-your-s3-bucket-and-your-key)
 
