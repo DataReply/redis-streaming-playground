@@ -203,7 +203,7 @@ Click the Open Search Dashboard URL
 
 Log in with the credentials you find in the infrastructure.yaml
   - look for the OpenSearch section towards the bottom
-  - look for the masterUserOptions property and right below you will find hardcoded username and password
+  - look for the MasterUserOptions property and right below you will find hardcoded username and password
 
 ![login](pictures/opens-search-login.png)
 
