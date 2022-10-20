@@ -212,7 +212,7 @@ Log in with the credentials you find in the infrastructure.yaml
 One you logged in open the menu on the left.
 Click Stack Management in the Management block. 
 Click index Patterns in the menu on the left.
-Click Create index patter.
+Click Create index pattern.
 
 Provide any index-pattern that would match the index called 'first-index' created by the consumer.
 
