@@ -197,7 +197,7 @@ Select the resources and then click the OpenSearch link.
 
 ![select-open-search](pictures/select_open_search.png)
 
-Click the Open Search Dashboard URl
+Click the Open Search Dashboard URL
 
 ![dashboard-url](pictures/open-search-dashboard-url.png)
 
