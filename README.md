@@ -65,7 +65,7 @@ Table of Contents
   - if you need guidance on [how to create a bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html)
 - Clone this repo
 ```
-git clone linktotherepo
+git clone https://github.com/DataReply/redis-streaming-playground.git
 ```
 
 ### [1. Deploy the infrastructure](#1-deploy-the-infrastructure)
