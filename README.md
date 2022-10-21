@@ -148,7 +148,7 @@ This time you should load the *cloud-formation/use-cases/smarthome.yaml*
 
 ### [3. Let's recap](#3-lets-recap)
 
-With this step all the resources needed to run the use cases are created:
+This is not an operative section, you don't need to do anything, relax. Let's recap the resources you have created so far:
 
 - Network related resources (VPC, subnet, route tables, associations...)
 - Permission related resources (security group, roles)
@@ -181,7 +181,10 @@ Clik Run.
 ![lambdas-test](pictures/lambdas-create-test.png)
 
 #### [4.4 Run the code](#44-run-the-code)
-Now run the code and see that the first records are produced.
+Now run the code and see that the first records are produced. You should see something like this: 
+
+![lambda-run](pictures/lambda-run.png)
+
 Do the same with the SmartHomeConsumer.
 
 ### [5. Open Search](#5-open-search)
@@ -209,7 +212,9 @@ Log in with the credentials you find in the infrastructure.yaml
 
 #### [5.2 Create an index](#52-create-an-index)
 
-One you logged in open the menu on the left.
+**Requirement**: Please note that to successfully create an index you need to load at least some data into OpenSearch. It is sufficient to run at least once the consumer lambda.
+
+One you logged in close the discover tab and open the menu on the left. 
 Click Stack Management in the Management block. 
 Click index Patterns in the menu on the left.
 Click Create index pattern.
@@ -217,6 +222,10 @@ Click Create index pattern.
 Provide any index-pattern that would match the index called 'first-index' created by the consumer.
 
 ![open-search-create-index](pictures/open-search-create-index.png)
+
+The output should look like this:
+
+![open-search](pictures/opensearch-index.png)
 
 #### [5.3 Create a visualization](#53-create-a-visualization)
 Once the data is loaded you can create a visualization of your choice, if you need guidance you can always take a look to the [doc](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/walkthrough.html#walkthrough-analysis)
